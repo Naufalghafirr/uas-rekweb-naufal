@@ -8,11 +8,11 @@
     <!-- Google Fonts: Roboto -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
-    <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('assets/css/bootstrap.min.css') }}" rel="stylesheet">
     <!-- Toastr CSS -->
-    <link href="{{ asset('assets/css/toastr.min.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('assets/css/toastr.min.css') }}" rel="stylesheet">
     <!-- DataTables Bootstrap CSS -->
-    <link href="{{ asset('assets/css/datatables.bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('assets/css/datatables.bootstrap.min.css') }}" rel="stylesheet">
     <!-- Bootstrap Icons (optional, for sidebar icons) -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
     <style>
@@ -179,12 +179,12 @@
         </div>
     </div>
     <!-- jQuery -->
-    <script src="{{ asset('assets/js/jquery.js') }}"></script>
+    <script src="{{ secure_asset('assets/js/jquery.js') }}"></script>
     <!-- DataTables JS -->
-    <script src="{{ asset('assets/js/jquery.datatables.js') }}"></script>
-    <script src="{{ asset('assets/js/jquery.datatables.bootstrap5.js') }}"></script>
+    <script src="{{ secure_asset('assets/js/jquery.datatables.js') }}"></script>
+    <script src="{{ secure_asset('assets/js/jquery.datatables.bootstrap5.js') }}"></script>
     <!-- Toastr JS -->
-    <script src="{{ asset('assets/js/toastr.min.js') }}"></script>
+    <script src="{{ secure_asset('assets/js/toastr.min.js') }}"></script>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     @stack('scripts')

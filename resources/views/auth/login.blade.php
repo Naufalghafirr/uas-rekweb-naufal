@@ -8,11 +8,11 @@
     <!-- Google Fonts: Roboto -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
-    <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('assets/css/bootstrap.min.css') }}" rel="stylesheet">
     <!-- Toastr CSS -->
-    <link href="{{ asset('assets/css/toastr.min.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('assets/css/toastr.min.css') }}" rel="stylesheet">
     <!-- DataTables Bootstrap CSS -->
-    <link href="{{ asset('assets/css/datatables.bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('assets/css/datatables.bootstrap.min.css') }}" rel="stylesheet">
     <!-- Bootstrap Icons (optional, for sidebar icons) -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
     <style>
